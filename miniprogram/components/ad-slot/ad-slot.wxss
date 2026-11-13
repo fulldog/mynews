@@ -1,0 +1,52 @@
+@import "../../styles/theme.wxss";
+
+.ad-slot {
+  margin: 0 24rpx 20rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+  background: var(--ad-bg);
+  min-height: 140rpx;
+  display: flex;
+  align-items: center;
+  padding: 24rpx;
+  box-sizing: border-box;
+}
+
+.ad-slot-hover {
+  opacity: 0.88;
+}
+
+.ad-tag {
+  font-size: 20rpx;
+  color: #fff;
+  background: var(--ad-tag);
+  border-radius: 6rpx;
+  padding: 2rpx 10rpx;
+  margin-right: 16rpx;
+  flex: none;
+}
+
+.ad-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.ad-title {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: var(--ad-title);
+}
+
+.ad-desc {
+  font-size: 24rpx;
+  color: var(--ad-desc);
+  margin-top: 6rpx;
+}
+
+.ad-img {
+  width: 160rpx;
+  height: 108rpx;
+  border-radius: 12rpx;
+  margin-left: 16rpx;
+  flex: none;
+}

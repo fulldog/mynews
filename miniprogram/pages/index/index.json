@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "碎片资讯",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "cat-block": "/components/cat-block/cat-block",
+    "ad-slot": "/components/ad-slot/ad-slot"
+  }
+}

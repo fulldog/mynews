@@ -1,0 +1,19 @@
+<view class="list-page">
+  <view wx:if="{{loading}}" class="tip">加载中…</view>
+  <view wx:elif="{{error}}" class="tip">{{error}}</view>
+
+  <block wx:else>
+    <view class="list-head">共 {{items.length}} 条<text wx:if="{{capped}}"> · 已保留最新 {{items.length}} 条</text></view>
+    <view class="list-card">
+      <news-item
+        wx:for="{{items}}"
+        wx:key="id"
+        item="{{item}}"
+        rank="{{index}}"
+        hairline="{{index > 0}}"
+        bind:open="onOpen"
+      />
+      <view wx:if="{{!items.length}}" class="tip">暂无内容</view>
+    </view>
+  </block>
+</view>

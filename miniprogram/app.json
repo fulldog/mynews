@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list"
+  ],
+  "window": {
+    "navigationBarTitleText": "碎片资讯",
+    "navigationBarBackgroundColor": "@navBg",
+    "navigationBarTextStyle": "@navTextStyle",
+    "backgroundColor": "@bgColor",
+    "backgroundTextStyle": "@bgTextStyle"
+  },
+  "darkmode": true,
+  "themeLocation": "theme.json",
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

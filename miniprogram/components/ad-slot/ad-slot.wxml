@@ -1,0 +1,14 @@
+<view
+  wx:if="{{!failed && (image || path)}}"
+  class="theme-root ad-slot"
+  hover-class="ad-slot-hover"
+  hover-stay-time="80"
+  bindtap="onTap"
+>
+  <text class="ad-tag">{{tag}}</text>
+  <view class="ad-body">
+    <view class="ad-title">{{title}}</view>
+    <view class="ad-desc" wx:if="{{desc}}">{{desc}}</view>
+  </view>
+  <image wx:if="{{image}}" class="ad-img" src="{{image}}" mode="aspectFill" binderror="onImageError" />
+</view>

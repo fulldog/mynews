@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "全部",
+  "usingComponents": {
+    "news-item": "/components/news-item/news-item"
+  }
+}

@@ -1,0 +1,99 @@
+page {
+  --bg: #f5f6f8;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --text-strong: #111111;
+  --text-secondary: #666666;
+  --text-muted: #888888;
+  --text-read: #b5b5b5;
+  --border: #ececec;
+  --hairline: #f2f2f2;
+  --chip: #f2f3f5;
+  --hover: #fafafa;
+  --skeleton: #eeeeee;
+  --accent: #ff6a00;
+  --hot: #ff5722;
+  --ad-bg: linear-gradient(135deg, #fff6ee, #ffe8d6);
+  --ad-title: #7a3d10;
+  --ad-desc: #8a5a32;
+  --ad-tag: #e8894a;
+
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Kaiti SC", "STKaiti", "KaiTi", "楷体", "Noto Serif SC", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  page {
+    --bg: #000000;
+    --card: #1c1c1e;
+    --text: #f2f2f7;
+    --text-strong: #ffffff;
+    --text-secondary: #aeaeb2;
+    --text-muted: #8e8e93;
+    --text-read: #636366;
+    --border: #2c2c2e;
+    --hairline: #2c2c2e;
+    --chip: #2c2c2e;
+    --hover: #2c2c2e;
+    --skeleton: #3a3a3c;
+    --accent: #ff6a00;
+    --hot: #ff6b3d;
+    --ad-bg: linear-gradient(135deg, #3a2a1c, #2c2118);
+    --ad-title: #ffd2a6;
+    --ad-desc: #c9a07a;
+    --ad-tag: #e8894a;
+  }
+}
+
+.anchor-bar {
+  background: var(--card);
+  border-bottom: 1rpx solid var(--border);
+  flex: none;
+}
+
+.anchor-scroll {
+  white-space: nowrap;
+  padding: 16rpx 24rpx;
+}
+
+.anchor-item {
+  display: inline-block;
+  padding: 10rpx 24rpx;
+  margin-right: 16rpx;
+  font-size: 26rpx;
+  color: var(--text-secondary);
+  background: var(--chip);
+  border-radius: 999rpx;
+}
+
+.anchor-item.active {
+  color: #fff;
+  background: var(--accent);
+}
+
+.group-title {
+  display: flex;
+  align-items: center;
+  padding: 28rpx 32rpx 12rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+.group-mark {
+  width: 8rpx;
+  height: 28rpx;
+  margin-right: 12rpx;
+  border-radius: 8rpx;
+  background: var(--accent);
+  flex: none;
+}
+
+.tip {
+  padding: 80rpx 48rpx;
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 1.6;
+  color: var(--text-muted);
+}

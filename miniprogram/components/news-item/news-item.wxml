@@ -1,0 +1,5 @@
+<view class="theme-root news-item {{hairline ? 'hairline' : ''}} {{item.read ? 'is-read' : ''}}" hover-class="news-item-hover" hover-stay-time="80" bindtap="onTap">
+  <text class="news-index {{rank < 3 ? 'hot' : ''}}">{{rank + 1}}</text>
+  <text class="news-title">{{item.title}}</text>
+  <text class="news-extra" wx:if="{{item.extra}}">{{item.extra}}</text>
+</view>

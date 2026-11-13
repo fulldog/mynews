@@ -1,0 +1,9 @@
+{
+  "name": "happy-work-news",
+  "private": true,
+  "description": "摸鱼资讯小程序",
+  "scripts": {
+    "test": "node tests/logic.test.js",
+    "test:live": "node tests/live.js"
+  }
+}

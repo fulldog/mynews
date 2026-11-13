@@ -1,0 +1,20 @@
+.list-page {
+  min-height: 100vh;
+  padding: 20rpx 0 calc(40rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.list-head {
+  padding: 8rpx 32rpx 16rpx;
+  font-size: 24rpx;
+  color: var(--text-muted);
+}
+
+.list-card {
+  background: var(--card);
+  margin: 0 24rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+}

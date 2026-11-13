@@ -1,0 +1,7 @@
+{
+  "name": "getHot",
+  "version": "1.0.0",
+  "description": "抓取 momoyu 热榜并直接返回，不依赖数据库",
+  "main": "index.js",
+  "dependencies": {}
+}

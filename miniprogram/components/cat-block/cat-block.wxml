@@ -1,0 +1,14 @@
+<view class="theme-root cat-block">
+  <view class="cat-head">
+    <view class="cat-dot" style="background: {{iconColor}}"></view>
+    <text class="cat-name">{{name}}</text>
+    <text class="cat-more" bindtap="onMore">全部 {{total}} ›</text>
+  </view>
+  <news-item
+    wx:for="{{items}}"
+    wx:key="id"
+    item="{{item}}"
+    rank="{{index}}"
+    bind:open="onOpen"
+  />
+</view>

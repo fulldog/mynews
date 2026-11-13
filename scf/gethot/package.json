@@ -1,0 +1,7 @@
+{
+  "name": "gethot-scf",
+  "version": "1.0.0",
+  "description": "腾讯云 SCF Web函数：抓取 momoyu 热榜并以 HTTP JSON 返回，无数据库",
+  "main": "index.js",
+  "dependencies": {}
+}

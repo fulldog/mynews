@@ -1,0 +1,10 @@
+{
+  "timeout": 40,
+  "triggers": [
+    {
+      "name": "fetchNewsEvery5Min",
+      "type": "timer",
+      "config": "0 */5 * * * * *"
+    }
+  ]
+}

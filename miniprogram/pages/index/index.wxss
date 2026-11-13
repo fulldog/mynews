@@ -1,0 +1,50 @@
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.feed {
+  flex: 1;
+  height: 0;
+}
+
+.footer-tip {
+  padding: 28rpx 40rpx calc(48rpx + env(safe-area-inset-bottom));
+  font-size: 22rpx;
+  color: var(--text-muted);
+}
+
+.skeleton {
+  padding-top: 24rpx;
+  animation: sk-pulse 1.2s ease-in-out infinite;
+}
+
+.sk-card {
+  background: var(--card);
+  margin: 0 24rpx 20rpx;
+  border-radius: 16rpx;
+  padding: 28rpx 24rpx;
+}
+
+.sk-line {
+  height: 28rpx;
+  margin-top: 22rpx;
+  border-radius: 8rpx;
+  background: var(--skeleton);
+}
+
+.sk-title {
+  width: 36%;
+  height: 32rpx;
+  margin-top: 0;
+  margin-bottom: 8rpx;
+}
+
+@keyframes sk-pulse {
+  0%,
+  100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}

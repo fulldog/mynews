@@ -1,0 +1,44 @@
+{
+  "description": "碎片资讯",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "projectname": "happy-work-news",
+  "libVersion": "3.8.5",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "compileHotReLoad": true,
+    "useIsolateContext": true,
+    "minifyWXSS": true,
+    "minifyWXML": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "类目列表",
+          "pathName": "pages/list/list",
+          "query": "gid=1&key=zhihu",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
